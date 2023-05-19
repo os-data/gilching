@@ -112,7 +112,7 @@
     {
       "name": "haushalt-2015-2018-enriched",
       "format": "csv",
-      "path": "Haushalt-2015-2018-enriched.csv",
+      "path": "https://storage.openspending.org/Haushalt-2015-2018-enriched.csv",
       "mediatype": "text/csv",
       "bytes": 1550481,
       "dialect": {
