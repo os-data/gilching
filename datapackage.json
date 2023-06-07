@@ -241,5 +241,6 @@
   "@context": "http://schemas.frictionlessdata.io/fiscal-data-package.jsonld",
   "owner": "a6a16b964a7e784f99adecc47f26318a",
   "author": "Michael Peters <michael.peters@okfn.de>",
+  "countryCode": "DE",
   "count_of_rows": 9156
 }
