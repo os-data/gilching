@@ -3,9 +3,7 @@
     "dimensions": {
       "budget-line-id": {
         "dimensionType": "fact",
-        "primaryKey": [
-          "ID"
-        ],
+        "primaryKey": ["ID"],
         "attributes": {
           "ID": {
             "source": "ID",
@@ -15,9 +13,7 @@
       },
       "fin-source": {
         "dimensionType": "other",
-        "primaryKey": [
-          "Haushalt_Art"
-        ],
+        "primaryKey": ["Haushalt_Art"],
         "attributes": {
           "Haushalt_Art": {
             "source": "Haushalt Art",
@@ -27,11 +23,7 @@
       },
       "administrative-classification": {
         "dimensionType": "classification",
-        "primaryKey": [
-          "Titelnr",
-          "Gruppennr",
-          "Bezeichnung"
-        ],
+        "primaryKey": ["Titelnr", "Gruppennr", "Bezeichnung"],
         "attributes": {
           "Titelnr": {
             "source": "Titelnr.",
@@ -62,9 +54,7 @@
       },
       "direction": {
         "dimensionType": "other",
-        "primaryKey": [
-          "Budget_Richtung"
-        ],
+        "primaryKey": ["Budget_Richtung"],
         "attributes": {
           "Budget_Richtung": {
             "source": "Budget Richtung",
@@ -74,9 +64,7 @@
       },
       "date": {
         "dimensionType": "datetime",
-        "primaryKey": [
-          "Jahr"
-        ],
+        "primaryKey": ["Jahr"],
         "attributes": {
           "Jahr": {
             "source": "Jahr",
@@ -86,9 +74,7 @@
       },
       "phase": {
         "dimensionType": "other",
-        "primaryKey": [
-          "Ansatz_Rechnung"
-        ],
+        "primaryKey": ["Ansatz_Rechnung"],
         "attributes": {
           "Ansatz_Rechnung": {
             "source": "Ansatz/Rechnung",
@@ -242,5 +228,9 @@
   "owner": "a6a16b964a7e784f99adecc47f26318a",
   "author": "Michael Peters <michael.peters@okfn.de>",
   "countryCode": "DE",
+  "fiscalPeriod": {
+    "start": "2015-01-01",
+    "end": "2018-12-31"
+  },
   "count_of_rows": 9156
 }
